@@ -18,14 +18,11 @@
         android:layout_height="48dp"
         android:layout_below="@+id/toolbar_tabs"
         android:background="@color/primary_two"
-        app:pstsActivateTextColor="@color/white"
-        app:pstsDeactivateTextColor="#66323232"
         app:pstsIndicatorColor="@color/white"
         app:pstsDividerColor="@color/primary_two"
         app:pstsIndicatorHeight="2dp"
         app:pstsUnderlineHeight="0dp"
-        app:pstsShouldExpand="true"
-        app:pstsTabSwitch="true"/>
+        app:pstsShouldExpand="true" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
